@@ -1,0 +1,202 @@
+ body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+} 
+.topnav {
+  overflow: hidden;
+  justify-content: space-between;
+  display: flex;
+  
+}
+.container{
+  position: relative;
+ bottom: 50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+  position: relative;
+  right: 250px;
+  top: 20px;
+  z-index: 999;
+  font-weight: 800;
+}
+.text{
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 600px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  color: green;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+.logo{
+  width: 200px;
+  margin-left: 200px;
+  margin-top: 20px;
+  border-radius: 100%;
+  position: absolute;
+}
+.img-desktop{
+  rotate: 999deg;
+  position: relative;
+  left: 2940px;
+  bottom: 600px;
+  height:900px;
+}
+h1{
+  font-size: 50px;
+  color: green;
+}
+p{
+  font-size: 40px;
+   text-align: center;
+}
+button{
+  width: 300px;
+  padding: 20px;
+  background-color: transparent;
+  font-size: 35px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  border: 4px solid green;
+  box-shadow: bisque 0px 0px 18px 0px;
+}
+.fond-sombre{
+  width: 600px;
+  position: absolute;
+  bottom: 1300px;
+  rotate: 29deg;
+  right: 3370px;
+}
+.text-2{
+  justify-content: center;
+  display: flex;
+  bottom: 500px;
+  position: relative;
+}
+.card-1{
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  width: 700px;
+  height: 400px;
+}
+.card-1 span{
+  position: relative;
+  bottom: 70px;
+  font-size: 50px;
+  font-weight: 800;
+  color: green;
+}
+.card-2{
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  width: 700px;
+  height: 400px;
+}
+.card-2 span{
+  position: relative;
+  bottom: 70px;
+  font-size: 50px;
+  font-weight: 800;
+  color: green;
+}
+.card-3{
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  width: 700px;
+  height: 400px;
+}
+.card-3 span{
+  position: relative;
+  bottom: 70px;
+  font-size: 50px;
+  font-weight: 800;
+  color: green;
+}
+.div-card{
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  bottom: 500px;
+  position: relative;
+  gap: 200px;
+}
+small{
+  position: absolute;
+  font-size: 30px;
+  text-align: start;
+  top: 190px;
+  font-weight: 800;
+  color: white;
+}
+.bi-globe{
+  position: absolute;
+  bottom: 310px;
+  font-size: 80px;
+  color: green;
+}
+.bi-file-code{
+  position: absolute;
+  bottom: 310px;
+  font-size: 80px;
+  color: green;
+}
+.bi-pencil-square{
+  position: absolute;
+  bottom: 310px;
+  font-size: 80px;
+  color: green;
+}
+.bi-bezier2{
+  position: absolute;
+  bottom: 310px;
+  font-size: 80px;
+  color: green;
+}
+.bi-grid-3x3-gap{
+  position: absolute;
+  bottom: 310px;
+  font-size: 80px;
+  color: green;
+}
+.bi-hdd-network-fill{
+  position: absolute;
+  bottom: 310px;
+  font-size: 80px;
+  color: green;
+}
+.bi-moon{
+  font-size: 50px;
+ position: relative;
+ bottom: 10px;
+}
